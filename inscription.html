@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<title>Formulaire Inscription</title>
+
+<body>
+    
+    <table border="1">
+        <thead>
+            <th scope="col" colspan="2" style="background: blue; color:aqua ">
+                Formulaire d'inscription
+            </th>
+        </thead>
+        <tr>
+            <td>
+
+                <form action="" method="POST">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="nom"> Nom :</label>
+                            </td>
+                            <td>
+                                <input type="text" id="nom" size="30" required placeholder="votre nom">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="prenom">Pr&eacute;nom :</label>
+                            </td>
+                            <td>
+                                <input type="text" id="prenom" size="30" required placeholder="votre prénom">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="datenaissance">Date Naissance :</label>
+                            </td>
+                            <td>
+                                <input type="date" id="datenaissance" min="1920-01-01" max="2050-12-31" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"> Email :</label>
+                            </td>
+                            <td>
+                                <input type="email" type="email" placeholder="yourname@domain.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" size="30"
+                                    required>
+
+                            </td>
+                            <tr>
+                                <td>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                </td>
+                                <td style="text-align: right">
+                                    <input type="submit" value="Subscribe!">
+                                </td>
+
+                            </tr>
+                        </tr>
+                    </table>
+                </form>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
